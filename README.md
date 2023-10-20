@@ -1,3 +1,4 @@
+
 # Ice Cream Calculator
 
 An android application version of the [Food Calculator](https://github.com/bitress/foodcalculator) website that was written on Javascript
@@ -6,6 +7,10 @@ An android application version of the [Food Calculator](https://github.com/bitre
 - Choose Ice Cream Flavour
 - Choose Ice Cream Size
 - Choose Ice Cream Toppings
+
+# To-Do
+- Change the checkbox and radio buttons to images 
+
 
 # License
 This project is licensed under the MIT License
