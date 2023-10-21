@@ -35,11 +35,12 @@
         android:gravity="center"
         android:orientation="horizontal">
 
+
         <RadioButton
             android:id="@+id/vanilla"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:background="@drawable/alignment_selector"
+            android:layout_height="match_parent"
+            android:background="@android:color/transparent"
             android:text="Vanilla" />
 
         <RadioButton
@@ -47,14 +48,14 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Mango"
-            android:background="@drawable/alignment_selector" />
+            android:background="@android:color/transparent"  />
 
         <RadioButton
             android:id="@+id/mint"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Mint"
-            android:background="@drawable/alignment_selector" />
+            android:background="@android:color/transparent"/>
 
     </RadioGroup>
 
