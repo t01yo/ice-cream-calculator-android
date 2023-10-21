@@ -1,7 +1,7 @@
 
 # Ice Cream Calculator
 
-An android application version of the [Food Calculator](https://github.com/bitress/foodcalculator) website that was written on Javascript
+An android application version of the [Food Calculator](https://github.com/bitress/advanced-web-development-front-end-1) website that was written on Javascript
 
 # Features
 - Choose Ice Cream Flavour
