@@ -28,6 +28,11 @@
         android:text="Ice Cream Flavour"
         android:textAlignment="center" />
 
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
+
     <RadioGroup
         android:id="@+id/flavourRadioGroup"
         android:layout_width="match_parent"
