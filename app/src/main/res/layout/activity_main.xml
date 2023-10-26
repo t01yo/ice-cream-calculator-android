@@ -4,10 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-<<<<<<< HEAD
-=======
     android:background="#A5DEE5"
->>>>>>> 61349c9146a71eb0a69cc07847e0c54ff3566a08
     android:orientation="vertical"
     tools:context=".MainActivity">
 
@@ -77,8 +74,4 @@
     </androidx.cardview.widget.CardView>
 
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 61349c9146a71eb0a69cc07847e0c54ff3566a08
 </androidx.constraintlayout.widget.ConstraintLayout>
