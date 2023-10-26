@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
@@ -27,53 +28,41 @@
         android:text="Ice Cream Flavour"
         android:textAlignment="center" />
 
-    <LinearLayout
+    <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
-        android:layout_height="49dp"
-        android:orientation="horizontal"
-        android:gravity="center">
-        <FrameLayout
-            android:layout_width="48dp"
-            android:layout_height="48dp"
-            android:layout_marginEnd="8dp"
-            android:clickable="true"
-            android:focusable="true"
-            android:background="@drawable/flavor_style"
-            android:onClick="setFlavor">
-            <ImageView
-                android:id="@+id/vanillaImage"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:contentDescription="Radio Image"/>
-        </FrameLayout>
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
+
+    <RadioGroup
+        android:id="@+id/flavourRadioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
 
 
-        <ImageView
-            android:id="@+id/mangoImage"
-            android:layout_width="48dp"
-            android:layout_height="48dp"
-            android:layout_marginStart="8dp"
-        android:layout_marginEnd="8dp"
-        android:clickable="true"
-        android:focusable="true"
-        android:contentDescription="Radio Image"
-        android:onClick="setFlavor"
-        android:src="@drawable/mango" />
+        <RadioButton
+            android:id="@+id/vanilla"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@android:color/transparent"
+            android:text="Vanilla" />
 
-        <ImageView
-            android:id="@+id/mintImage"
-            android:layout_width="48dp"
-            android:layout_height="48dp"
-            android:layout_marginStart="8dp"
-        android:clickable="true"
-        android:focusable="true"
-        android:contentDescription="Radio Image"
-        android:onClick="setFlavor"
-        android:src="@drawable/mint"
-            android:background="@drawable/flavor_style"/>
-    </LinearLayout>
+        <RadioButton
+            android:id="@+id/mango"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mango"
+            android:background="@android:color/transparent"  />
 
+        <RadioButton
+            android:id="@+id/mint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mint"
+            android:background="@android:color/transparent"/>
 
+    </RadioGroup>
 
 
     <TextView

@@ -3,7 +3,6 @@ package com.bitress.icecreamcalculator
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.view.View
 import android.widget.Button
 import android.widget.CheckBox
 import android.widget.RadioButton
@@ -35,6 +34,7 @@ class MainActivity : AppCompatActivity() {
         blueberryCheckbox = findViewById(R.id.blueberry)
         baconCheckbox = findViewById(R.id.bacon)
 
+        flavourRadioGroup = findViewById(R.id.flavourRadioGroup)
         sizeRadioGroup = findViewById(R.id.sizeRadioGroup)
         calculateButton = findViewById(R.id.calculateButton)
 
@@ -105,7 +105,5 @@ class MainActivity : AppCompatActivity() {
             }
         }
     }
-
-    fun setFlavor(view: View) {}
 
 }
