@@ -1,197 +1,61 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#A5DEE5"
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <TextView
-        android:id="@+id/title"
-        android:layout_width="335dp"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="40dp"
-        android:layout_marginTop="20dp"
-        android:layout_marginRight="40dp"
-        android:layout_weight="1"
-        android:text="Ice Cream Calculator"
-        android:textAlignment="center"
-        android:textSize="34sp" />
 
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="60sp"
-        android:layout_weight="1"
-        android:text="Ice Cream Flavour"
-        android:textAlignment="center" />
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="198dp"
+        android:layout_height="57dp"
+        app:cardBackgroundColor="#E0F9B5 "
+        app:cardCornerRadius="4dp"
+        app:cardElevation="4dp"
+        app:cardUseCompatPadding="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.525"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.857">
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="49dp"
-        android:orientation="horizontal"
-        android:gravity="center">
-        <FrameLayout
-            android:layout_width="48dp"
-            android:layout_height="48dp"
-            android:layout_marginEnd="8dp"
-            android:clickable="true"
-            android:focusable="true"
-            android:background="@drawable/flavor_style"
-            android:onClick="setFlavor">
-            <ImageView
-                android:id="@+id/vanillaImage"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:contentDescription="Radio Image"/>
-        </FrameLayout>
-
-
-        <ImageView
-            android:id="@+id/mangoImage"
-            android:layout_width="48dp"
-            android:layout_height="48dp"
-            android:layout_marginStart="8dp"
-        android:layout_marginEnd="8dp"
-        android:clickable="true"
-        android:focusable="true"
-        android:contentDescription="Radio Image"
-        android:onClick="setFlavor"
-        android:src="@drawable/mango" />
-
-        <ImageView
-            android:id="@+id/mintImage"
-            android:layout_width="48dp"
-            android:layout_height="48dp"
-            android:layout_marginStart="8dp"
-        android:clickable="true"
-        android:focusable="true"
-        android:contentDescription="Radio Image"
-        android:onClick="setFlavor"
-        android:src="@drawable/mint"
-            android:background="@drawable/flavor_style"/>
-    </LinearLayout>
-
-
-
-
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="30sp"
-        android:layout_weight="1"
-        android:text="Ice Cream Size"
-        android:textAlignment="center" />
-
-    <RadioGroup
-        android:id="@+id/sizeRadioGroup"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        android:orientation="horizontal">
-
-        <RadioButton
-            android:id="@+id/small"
-            android:layout_width="wrap_content"
+        <Button
+            android:id="@+id/placeOrderButton"
+            android:layout_width="187dp"
             android:layout_height="wrap_content"
-            android:background="@drawable/alignment_selector"
-            android:text="Small" />
+            android:background="@android:color/transparent"
+            android:text="Order"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+    </androidx.cardview.widget.CardView>
 
-        <RadioButton
-            android:id="@+id/medium"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Medium"
-            android:background="@drawable/alignment_selector" />
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="395dp"
+        android:layout_height="362dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.411"
+        app:srcCompat="@drawable/logo" />
 
-        <RadioButton
-            android:id="@+id/large"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Large"
-            android:background="@drawable/alignment_selector" />
-
-    </RadioGroup>
-
-
-    <TextView
-        android:id="@+id/textView4"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="30sp"
-        android:layout_weight="1"
-        android:text="Ice Cream Toppings"
-        android:textAlignment="center" />
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:gravity="center">
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:gravity="center">
-
-            <CheckBox
-                android:id="@+id/mango_chunks"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Mango Chunks" />
-
-            <CheckBox
-                android:id="@+id/marshmallow"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Marshmallow" />
-
-            <CheckBox
-                android:id="@+id/cherry"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Cherry" />
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:gravity="center">
-
-            <CheckBox
-                android:id="@+id/cheese"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Cheese" />
-
-            <CheckBox
-                android:id="@+id/blueberry"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Blueberry" />
-
-            <CheckBox
-                android:id="@+id/bacon"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Bacon" />
-
-        </LinearLayout>
-
-    </LinearLayout>
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="446dp"
+        android:layout_height="257dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.514"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/top" />
 
 
-    <Button
-        android:id="@+id/calculateButton"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="60sp"
-        android:layout_marginTop="30sp"
-        android:layout_marginRight="60sp"
-        android:text="Calculate" />
-
-</LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

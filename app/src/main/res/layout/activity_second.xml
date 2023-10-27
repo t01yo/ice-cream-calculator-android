@@ -1,82 +1,182 @@
-<!-- res/layout/activity_second.xml -->
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#009688"
-    tools:context=".SecondActivity">
+    android:background="#A5DEE5"
+    tools:context=".SecondActivity"
+    tools:layout_editor_absoluteX="3dp"
+    tools:layout_editor_absoluteY="74dp">
 
-    <!-- Wave background -->
 
-    <!-- CardView -->
     <androidx.cardview.widget.CardView
-        android:id="@+id/cardView"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="16dp"
-        android:layout_marginTop="100dp"
-        app:cardCornerRadius="32dp"
-        app:cardElevation="8dp"
-        app:cardBackgroundColor="#FFFFFF">
+        android:layout_width="198dp"
+        android:layout_height="57dp"
+        app:cardBackgroundColor="#E0F9B5 "
+        app:cardCornerRadius="4dp"
+        app:cardElevation="4dp"
+        app:cardUseCompatPadding="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.854"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.784">
 
-        <!-- Card content -->
-        <LinearLayout
-            android:layout_width="match_parent"
+        <Button
+            android:id="@+id/returnHomeButton"
+            android:layout_width="187dp"
             android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:padding="16dp">
-
-            <ImageView
-                android:layout_width="120dp"
-                android:layout_height="120dp"
-                android:layout_gravity="center_horizontal"
-                android:src="@drawable/vanilla" />
-
-            <TextView
-                android:id="@+id/flavorTextView"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Flavor"
-                android:textAlignment="center"
-                android:textSize="24sp"
-                android:layout_gravity="center_horizontal"
-                android:paddingTop="8dp" />
-
-            <TextView
-                android:id="@+id/totalPriceTextView"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Total Price: $5.50"
-                android:textAlignment="center"
-                android:textSize="24sp"
-                android:layout_gravity="center_horizontal"
-                android:paddingTop="8dp"
-                android:paddingBottom="16dp" />
-        </LinearLayout>
+            android:background="@android:color/transparent"
+            android:fontFamily="@font/poppins"
+            android:text="Return Home"
+            android:textColor="#000000"
+            android:textSize="16sp" />
     </androidx.cardview.widget.CardView>
 
-    <!-- Additional information -->
     <TextView
-        android:id="@+id/sizeTextView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Size: Medium"
-        android:textSize="20sp"
-        android:layout_below="@+id/cardView"
-        android:layout_centerHorizontal="true"
-        android:paddingTop="16dp"
-        android:textColor="#FFFFFF" />
+        android:id="@+id/textView"
+        android:layout_width="349dp"
+        android:layout_height="54dp"
+        android:background="@drawable/rectangle_border"
+        android:fontFamily="@font/poppins"
+        android:padding="16sp"
+        android:text="Order Completed!"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.048" />
 
     <TextView
-        android:id="@+id/toppingsTextView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Toppings: Mango Chunks, Marshmallow"
-        android:textSize="20sp"
-        android:layout_below="@+id/sizeTextView"
-        android:layout_centerHorizontal="true"
-        android:paddingTop="8dp"
-        android:textColor="#FFFFFF" />
+        android:id="@+id/textView2"
+        android:layout_width="349dp"
+        android:layout_height="54dp"
+        android:background="@drawable/rectangle_border"
+        android:fontFamily="@font/poppins"
+        android:padding="16sp"
+        android:text="Thank you!"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.675" />
 
-</RelativeLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="276dp"
+        android:layout_height="317dp"
+        android:background="@drawable/rectangle_border"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.258">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView2"
+            android:layout_width="129dp"
+            android:layout_height="122dp"
+            android:orientation="vertical"
+            app:cardCornerRadius="100dp"
+            app:cardElevation="0dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.191">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/mango" />
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/totalPriceTextView"
+            android:layout_width="210dp"
+            android:layout_height="27dp"
+            android:layout_gravity="center_horizontal"
+            android:fontFamily="@font/poppins"
+            android:text="Total Price: 180"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.87" />
+
+        <TextView
+            android:id="@+id/flavorTextView"
+            android:layout_width="90dp"
+            android:layout_height="18dp"
+            android:layout_gravity="center_horizontal"
+            android:fontFamily="@font/poppins"
+            android:text="Flavor: Mango"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="12sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.548" />
+
+        <TextView
+            android:id="@+id/sizeTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="@font/poppins"
+            android:text="Size: Medium"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="12sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.618" />
+
+        <TextView
+            android:id="@+id/toppingsTextView"
+            android:layout_width="246dp"
+            android:layout_height="43dp"
+            android:layout_below="@+id/sizeTextView"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="@font/poppins"
+            android:text="Toppings: Mango Chunks, Marshmallow"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="12sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.754" />
+
+        <TextView
+            android:id="@+id/ordereditems"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins"
+            android:text="Ordered Items"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.067"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.051" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
