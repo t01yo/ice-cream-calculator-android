@@ -12,7 +12,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        myButton = findViewById(R.id.myButton)
+        myButton = findViewById(R.id.placeOrderButton)
 
         myButton.setOnClickListener {
             val intent = Intent(this, SecondActivity::class.java)
