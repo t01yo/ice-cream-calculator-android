@@ -1,8 +1,8 @@
 package com.bitress.icecreamcalculator
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.content.Intent
 import android.widget.Button
 
 class HomeActivity : AppCompatActivity() {
@@ -12,9 +12,11 @@ class HomeActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_home)
 
+        placeOrderButton = findViewById(R.id.placeOrderButton)
+
         placeOrderButton.setOnClickListener {
-            val intents = Intent(this, SecondActivity::class.java)
-            startActivity(intents)
+            val intent = Intent(this, SecondActivity::class.java)
+            startActivity(intent)
         }
 
     }

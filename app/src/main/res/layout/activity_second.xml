@@ -1,4 +1,4 @@
-<!-- res/layout/activity_second.xml -->
+<?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -9,11 +9,6 @@
     tools:layout_editor_absoluteX="3dp"
     tools:layout_editor_absoluteY="74dp">
 
-    <!-- Wave background -->
-
-    <!-- CardView -->
-
-    <!-- Additional information -->
 
     <androidx.cardview.widget.CardView
         android:layout_width="198dp"
@@ -27,7 +22,7 @@
         app:layout_constraintHorizontal_bias="0.854"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.743">
+        app:layout_constraintVertical_bias="0.784">
 
         <Button
             android:id="@+id/returnHomeButton"
@@ -53,7 +48,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.076" />
+        app:layout_constraintVertical_bias="0.048" />
 
     <TextView
         android:id="@+id/textView2"
@@ -69,18 +64,19 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.646" />
+        app:layout_constraintVertical_bias="0.675" />
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/constraintLayout"
-        android:layout_width="272dp"
-        android:layout_height="304dp"
+        android:layout_width="276dp"
+        android:layout_height="317dp"
         android:background="@drawable/rectangle_border"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.284">
+        app:layout_constraintVertical_bias="0.258">
 
         <androidx.cardview.widget.CardView
             android:id="@+id/cardView2"
@@ -117,11 +113,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-<<<<<<< HEAD
             app:layout_constraintVertical_bias="0.87" />
-=======
-            app:layout_constraintVertical_bias="0.848" />
->>>>>>> fe3c0cd1842cc6ca58c8625ee89b4289bb0bfb9f
 
         <TextView
             android:id="@+id/flavorTextView"
@@ -137,11 +129,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-<<<<<<< HEAD
             app:layout_constraintVertical_bias="0.548" />
-=======
-            app:layout_constraintVertical_bias="0.562" />
->>>>>>> fe3c0cd1842cc6ca58c8625ee89b4289bb0bfb9f
 
         <TextView
             android:id="@+id/sizeTextView"
@@ -157,11 +145,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-<<<<<<< HEAD
             app:layout_constraintVertical_bias="0.618" />
-=======
-            app:layout_constraintVertical_bias="0.61" />
->>>>>>> fe3c0cd1842cc6ca58c8625ee89b4289bb0bfb9f
 
         <TextView
             android:id="@+id/toppingsTextView"
@@ -178,11 +162,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-<<<<<<< HEAD
             app:layout_constraintVertical_bias="0.754" />
-=======
-            app:layout_constraintVertical_bias="0.733" />
->>>>>>> fe3c0cd1842cc6ca58c8625ee89b4289bb0bfb9f
 
         <TextView
             android:id="@+id/ordereditems"
