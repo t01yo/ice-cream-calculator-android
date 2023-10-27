@@ -35,6 +35,7 @@
         android:id="@+id/editTextText"
         android:layout_width="176dp"
         android:layout_height="38dp"
+        android:drawableRight="@android:drawable/ic_menu_search"
         android:ems="10"
         android:inputType="text"
         android:text="Search"
