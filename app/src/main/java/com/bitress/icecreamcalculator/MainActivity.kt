@@ -4,28 +4,15 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
-import android.widget.CheckBox
-import android.widget.RadioButton
-import android.widget.RadioGroup
-import android.widget.Toast
 
 class MainActivity : AppCompatActivity() {
 
-
-    private lateinit var flavourRadioGroup: RadioGroup
-    private lateinit var sizeRadioGroup: RadioGroup
-    private lateinit var mangoChunksCheckbox: CheckBox
-    private lateinit var marshmallowCheckbox: CheckBox
-    private lateinit var cherryCheckbox: CheckBox
-    private lateinit var cheeseCheckbox: CheckBox
-    private lateinit var blueberryCheckbox: CheckBox
-    private lateinit var baconCheckbox: CheckBox
-
-    private lateinit var calculateButton: Button
+    private lateinit var myButton: Button
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+<<<<<<< HEAD
         calculateButton.setOnClickListener {
 
             val selectedToppings = mutableListOf<String>()
@@ -81,7 +68,15 @@ class MainActivity : AppCompatActivity() {
 
 
             }
+=======
+        myButton = findViewById(R.id.placeOrderButton)
+
+        myButton.setOnClickListener {
+            val intent = Intent(this, SecondActivity::class.java)
+            startActivity(intent)
+>>>>>>> bb81cbb21660816fcdb4b7ac3a76f2c5970c584f
         }
+
     }
 
 }
