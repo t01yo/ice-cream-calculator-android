@@ -26,18 +26,6 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-
-        mangoChunksCheckbox = findViewById(R.id.mango_chunks)
-        marshmallowCheckbox = findViewById(R.id.marshmallow)
-        cherryCheckbox = findViewById(R.id.cherry)
-        cheeseCheckbox = findViewById(R.id.cheese)
-        blueberryCheckbox = findViewById(R.id.blueberry)
-        baconCheckbox = findViewById(R.id.bacon)
-
-        flavourRadioGroup = findViewById(R.id.flavourRadioGroup)
-        sizeRadioGroup = findViewById(R.id.sizeRadioGroup)
-        calculateButton = findViewById(R.id.calculateButton)
-
         calculateButton.setOnClickListener {
 
             val selectedToppings = mutableListOf<String>()
@@ -70,16 +58,6 @@ class MainActivity : AppCompatActivity() {
                 selectedToppings.add(baconCheckbox.text.toString())
                 totalPrice += 40
             }
-
-            val sizePrice = when (selectedSizeId) {
-                R.id.small -> 50
-                R.id.medium -> 80
-                R.id.large -> 120
-                else -> 0
-            }
-
-            totalPrice += sizePrice
-
 
             if (selectedFlavourId != -1) {
 
