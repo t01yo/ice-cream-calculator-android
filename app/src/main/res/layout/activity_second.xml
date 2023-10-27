@@ -27,10 +27,10 @@
         app:layout_constraintHorizontal_bias="0.854"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.857">
+        app:layout_constraintVertical_bias="0.743">
 
         <Button
-            android:id="@+id/myButton"
+            android:id="@+id/returnHomeButton"
             android:layout_width="187dp"
             android:layout_height="wrap_content"
             android:background="@android:color/transparent"
@@ -69,18 +69,18 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.729" />
+        app:layout_constraintVertical_bias="0.646" />
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/constraintLayout"
-        android:layout_width="306dp"
-        android:layout_height="370dp"
+        android:layout_width="272dp"
+        android:layout_height="304dp"
         android:background="@drawable/rectangle_border"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.318">
+        app:layout_constraintVertical_bias="0.284">
 
         <androidx.cardview.widget.CardView
             android:id="@+id/cardView2"
@@ -117,7 +117,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.725" />
+            app:layout_constraintVertical_bias="0.87" />
 
         <TextView
             android:id="@+id/flavorTextView"
@@ -133,7 +133,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.473" />
+            app:layout_constraintVertical_bias="0.548" />
 
         <TextView
             android:id="@+id/sizeTextView"
@@ -149,7 +149,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.53" />
+            app:layout_constraintVertical_bias="0.618" />
 
         <TextView
             android:id="@+id/toppingsTextView"
@@ -166,7 +166,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.629" />
+            app:layout_constraintVertical_bias="0.754" />
 
         <TextView
             android:id="@+id/ordereditems"
