@@ -92,7 +92,7 @@
             app:layout_constraintVertical_bias="0.191">
 
             <ImageView
-                android:id="@+id/imageView2"
+                android:id="@+id/flavourImage"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:scaleType="fitXY"
