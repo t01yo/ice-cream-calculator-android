@@ -4,6 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
+import android.widget.ImageView
 import android.widget.TextView
 
 class SecondActivity : AppCompatActivity() {
@@ -13,6 +14,7 @@ class SecondActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_second)
 
+        val flavourImage = findViewById<ImageView>(R.id.flavourImage)
         val flavorTextView = findViewById<TextView>(R.id.flavorTextView)
         val toppingsTextView = findViewById<TextView>(R.id.toppingsTextView)
         val totalPriceTextView = findViewById<TextView>(R.id.totalPriceTextView)
@@ -21,12 +23,21 @@ class SecondActivity : AppCompatActivity() {
 
         returnHomeButton = findViewById(R.id.returnHomeButton)
 
-
-
         val flavor = intent.getStringExtra("flavour")
         val toppings = intent.getStringArrayListExtra("toppings")
         val totalPrice = intent.getIntExtra("total_price", 0)
         val size = intent.getStringExtra("size")
+
+        when (flavor) {
+            "Mango" -> flavourImage.setImageResource(R.drawable.mango)
+            "Mint" ->  flavourImage.setImageResource(R.drawable.mint)
+            "Vanilla" ->  flavourImage.setImageResource(R.drawable.vanilla)
+            else -> {
+                flavourImage.setImageResource(R.drawable.logo)
+            }
+        }
+
+
 
 
         flavorTextView.text = "Flavor: $flavor"

@@ -6,13 +6,35 @@ import android.os.Bundle
 import android.view.View
 import android.widget.Button
 import android.widget.CheckBox
+import android.widget.TextView
 
 class HomeActivity : AppCompatActivity() {
 
+    private var quantity = 0
+    private lateinit var quantityTextView: TextView
     private lateinit var placeOrderButton: Button
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_home)
+
+        val minusButton: Button = findViewById(R.id.minus)
+        val plusButton: Button = findViewById(R.id.plus)
+        quantityTextView = findViewById(R.id.quantityTextView)
+
+        quantityTextView.text = quantity.toString()
+
+        minusButton.setOnClickListener {
+            if (quantity > 0) {
+                quantity--
+                updateQuantity()
+            }
+        }
+
+        plusButton.setOnClickListener {
+            quantity++
+            updateQuantity()
+        }
+
 
         val mangoFlavourButton = findViewById<Button>(R.id.mangoButton)
         val mintFlavourButton = findViewById<Button>(R.id.mintButton)
@@ -126,13 +148,19 @@ class HomeActivity : AppCompatActivity() {
 
             totalPrice += sizePrice
 
+            val finalPrice = quantity * totalPrice
+
             val intent = Intent(this, SecondActivity::class.java)
             intent.putExtra("flavour", selectedFlavour)
             intent.putExtra("size", selectedSize)
             intent.putStringArrayListExtra("toppings", ArrayList(selectedToppings))
-            intent.putExtra("total_price", totalPrice)
+            intent.putExtra("total_price", finalPrice)
             startActivity(intent)
         }
 
+    }
+
+    private fun updateQuantity() {
+        quantityTextView.text = quantity.toString()
     }
 }
