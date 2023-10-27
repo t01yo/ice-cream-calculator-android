@@ -213,21 +213,21 @@
             android:orientation="horizontal">
 
             <CheckBox
-                android:id="@+id/checkbox1"
+                android:id="@+id/baconCheckbox"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="Bacon" />
 
             <CheckBox
-                android:id="@+id/checkbox2"
+                android:id="@+id/blueberryCheckbox"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="Blueberry" />
 
             <CheckBox
-                android:id="@+id/checkbox3"
+                android:id="@+id/cheeseCheckbox"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -241,21 +241,21 @@
             android:orientation="horizontal">
 
             <CheckBox
-                android:id="@+id/checkbox4"
+                android:id="@+id/cherryCheckbox"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="Cherry" />
 
             <CheckBox
-                android:id="@+id/checkbox5"
+                android:id="@+id/mangoChunksCheckbox"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="Mango Chunks" />
 
             <CheckBox
-                android:id="@+id/checkbox6"
+                android:id="@+id/marshmallowCheckbox"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -291,15 +291,10 @@
                 android:layout_height="wrap_content"
                 android:background="@android:color/transparent"
                 android:text="Small"
-                android:textAlignment="viewEnd"
+                android:textAlignment="center"
                 android:textColor="#000000"
                 android:textSize="11sp" />
 
-            <ImageView
-                android:id="@+id/smallView5"
-                android:layout_width="48dp"
-                android:layout_height="47dp"
-                app:srcCompat="@drawable/mango" />
 
             <View
                 android:id="@+id/smallIndicator"
@@ -322,16 +317,11 @@
                 android:layout_width="111dp"
                 android:layout_height="wrap_content"
                 android:background="@android:color/transparent"
-                android:text="Mint"
-                android:textAlignment="viewEnd"
+                android:text="Medium"
+                android:textAlignment="center"
                 android:textColor="#000000"
                 android:textSize="11sp" />
 
-            <ImageView
-                android:id="@+id/mediumImage"
-                android:layout_width="49dp"
-                android:layout_height="50dp"
-                app:srcCompat="@drawable/mint" />
 
             <View
                 android:id="@+id/mediumIndicator"
@@ -353,16 +343,10 @@
                 android:layout_width="110dp"
                 android:layout_height="wrap_content"
                 android:background="@android:color/transparent"
-                android:text="Vanilla"
-                android:textAlignment="viewEnd"
+                android:text="Large"
+                android:textAlignment="center"
                 android:textColor="#000000"
                 android:textSize="11sp" />
-
-            <ImageView
-                android:id="@+id/largeImage"
-                android:layout_width="49dp"
-                android:layout_height="50dp"
-                app:srcCompat="@drawable/vanilla" />
 
             <View
                 android:id="@+id/largeIndicator"

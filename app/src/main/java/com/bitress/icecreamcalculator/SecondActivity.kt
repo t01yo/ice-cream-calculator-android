@@ -14,13 +14,25 @@ class SecondActivity : AppCompatActivity() {
         setContentView(R.layout.activity_second)
 
         val flavorTextView = findViewById<TextView>(R.id.flavorTextView)
+        val toppingsTextView = findViewById<TextView>(R.id.toppingsTextView)
+        val totalPriceTextView = findViewById<TextView>(R.id.totalPriceTextView)
+        val sizeTextView = findViewById<TextView>(R.id.sizeTextView)
+
 
         returnHomeButton = findViewById(R.id.returnHomeButton)
 
 
 
         val flavor = intent.getStringExtra("flavour")
+        val toppings = intent.getStringArrayListExtra("toppings")
+        val totalPrice = intent.getIntExtra("total_price", 0)
+        val size = intent.getStringExtra("size")
+
+
         flavorTextView.text = "Flavor: $flavor"
+        sizeTextView.text = "Size: $size"
+        toppingsTextView.text = "Toppings: ${toppings?.joinToString(", ")}"
+        totalPriceTextView.text = "Total Price: $totalPrice"
 
         // Intent Return to Home Activity
         returnHomeButton.setOnClickListener {
