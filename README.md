@@ -17,5 +17,5 @@ This project is licensed under the MIT License
 
 # Authors
 - [@bitress](https://www.github.com/bitress)
-- [@t01kyo](https://github.com/t01kyo)
+- [@t01yo](https://github.com/t01yo)
 
