@@ -8,11 +8,6 @@
     tools:context=".HomeActivity">
 
     <TextView
-<<<<<<< HEAD
-=======
-
-
->>>>>>> e37c323a8441518efd9d51a865a23da9bcf1a642
         android:id="@+id/textView4"
         android:layout_width="76dp"
         android:layout_height="19dp"
@@ -22,11 +17,7 @@
         app:layout_constraintHorizontal_bias="0.047"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-<<<<<<< HEAD
-        app:layout_constraintVertical_bias="0.741" />
-=======
         app:layout_constraintVertical_bias="0.766" />
->>>>>>> e37c323a8441518efd9d51a865a23da9bcf1a642
 
     <ImageView
         android:id="@+id/imageView4"
@@ -65,17 +56,9 @@
         android:padding="16dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-<<<<<<< HEAD
-        app:layout_constraintHorizontal_bias="0.333"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.317">
-
-=======
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.346">
->>>>>>> e37c323a8441518efd9d51a865a23da9bcf1a642
         <androidx.cardview.widget.CardView
             android:layout_width="120dp"
             android:layout_height="56dp"
@@ -183,17 +166,6 @@
         app:cardUseCompatPadding="true"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-<<<<<<< HEAD
-        app:layout_constraintHorizontal_bias="0.87"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.953">
-
-        <Button
-            android:id="@+id/placeOrderButton"
-            android:layout_width="149dp"
-            android:layout_height="36dp"
-=======
         app:layout_constraintHorizontal_bias="0.977"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -203,7 +175,6 @@
             android:id="@+id/placeOrderButton"
             android:layout_width="137dp"
             android:layout_height="33dp"
->>>>>>> e37c323a8441518efd9d51a865a23da9bcf1a642
             android:background="@android:color/transparent"
             android:text="Place Order"
             android:textColor="#000000"
@@ -220,11 +191,7 @@
         app:layout_constraintHorizontal_bias="0.047"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-<<<<<<< HEAD
-        app:layout_constraintVertical_bias="0.419" />
-=======
         app:layout_constraintVertical_bias="0.436" />
->>>>>>> e37c323a8441518efd9d51a865a23da9bcf1a642
 
     <LinearLayout
         android:id="@+id/linearLayout2"
@@ -235,11 +202,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-<<<<<<< HEAD
-        app:layout_constraintVertical_bias="0.592">
-=======
         app:layout_constraintVertical_bias="0.626">
->>>>>>> e37c323a8441518efd9d51a865a23da9bcf1a642
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -266,17 +229,10 @@
                         android:textSize="10sp"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
-<<<<<<< HEAD
-                        app:layout_constraintHorizontal_bias="0.207"
-                        app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toTopOf="parent"
-                        app:layout_constraintVertical_bias="0.973" />
-=======
                         app:layout_constraintHorizontal_bias="0.175"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent"
                         app:layout_constraintVertical_bias="0.786" />
->>>>>>> e37c323a8441518efd9d51a865a23da9bcf1a642
 
                     <TextView
                         android:id="@+id/textView9"
@@ -286,11 +242,7 @@
                         android:textSize="10sp"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
-<<<<<<< HEAD
-                        app:layout_constraintHorizontal_bias="0.821"
-=======
                         app:layout_constraintHorizontal_bias="0.175"
->>>>>>> e37c323a8441518efd9d51a865a23da9bcf1a642
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent"
                         app:layout_constraintVertical_bias="0.973" />
@@ -310,17 +262,6 @@
                         app:layout_constraintVertical_bias="0.015" />
 
                     <ImageView
-<<<<<<< HEAD
-                        android:id="@+id/imageView3"
-                        android:layout_width="89dp"
-                        android:layout_height="56dp"
-                        app:layout_constraintBottom_toBottomOf="parent"
-                        app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toTopOf="parent"
-                        app:srcCompat="@drawable/blueberry" />
-
-=======
                         android:id="@+id/imageView7"
                         android:layout_width="75dp"
                         android:layout_height="51dp"
@@ -331,7 +272,6 @@
                         app:layout_constraintTop_toTopOf="parent"
                         app:layout_constraintVertical_bias="0.0"
                         app:srcCompat="@drawable/blueberry" />
->>>>>>> e37c323a8441518efd9d51a865a23da9bcf1a642
                 </androidx.constraintlayout.widget.ConstraintLayout>
 
             </androidx.cardview.widget.CardView>
@@ -355,11 +295,7 @@
                         android:textSize="10sp"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
-<<<<<<< HEAD
-                        app:layout_constraintHorizontal_bias="0.809"
-=======
                         app:layout_constraintHorizontal_bias="0.175"
->>>>>>> e37c323a8441518efd9d51a865a23da9bcf1a642
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent"
                         app:layout_constraintVertical_bias="0.973" />
@@ -383,16 +319,10 @@
                         android:layout_height="55dp"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
-<<<<<<< HEAD
-                        app:layout_constraintHorizontal_bias="0.489"
-                        app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toTopOf="parent"
-=======
                         app:layout_constraintHorizontal_bias="0.936"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent"
                         app:layout_constraintVertical_bias="0.117"
->>>>>>> e37c323a8441518efd9d51a865a23da9bcf1a642
                         app:srcCompat="@drawable/bacon" />
 
                     <TextView
@@ -406,11 +336,7 @@
                         app:layout_constraintHorizontal_bias="0.175"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent"
-<<<<<<< HEAD
-                        app:layout_constraintVertical_bias="0.973" />
-=======
                         app:layout_constraintVertical_bias="0.786" />
->>>>>>> e37c323a8441518efd9d51a865a23da9bcf1a642
                 </androidx.constraintlayout.widget.ConstraintLayout>
 
             </androidx.cardview.widget.CardView>
@@ -434,11 +360,7 @@
                         android:textSize="10sp"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
-<<<<<<< HEAD
-                        app:layout_constraintHorizontal_bias="0.904"
-=======
                         app:layout_constraintHorizontal_bias="0.175"
->>>>>>> e37c323a8441518efd9d51a865a23da9bcf1a642
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent"
                         app:layout_constraintVertical_bias="0.973" />
@@ -451,17 +373,10 @@
                         android:textSize="10sp"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
-<<<<<<< HEAD
-                        app:layout_constraintHorizontal_bias="0.186"
-                        app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toTopOf="parent"
-                        app:layout_constraintVertical_bias="0.973" />
-=======
                         app:layout_constraintHorizontal_bias="0.175"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent"
                         app:layout_constraintVertical_bias="0.786" />
->>>>>>> e37c323a8441518efd9d51a865a23da9bcf1a642
 
                     <ImageView
                         android:id="@+id/imageView10"
@@ -469,16 +384,10 @@
                         android:layout_height="50dp"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
-<<<<<<< HEAD
-                        app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toTopOf="parent"
-                        app:layout_constraintVertical_bias="0.41"
-=======
                         app:layout_constraintHorizontal_bias="0.809"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent"
                         app:layout_constraintVertical_bias="0.23"
->>>>>>> e37c323a8441518efd9d51a865a23da9bcf1a642
                         app:srcCompat="@drawable/cheese" />
 
                     <CheckBox
@@ -524,17 +433,6 @@
                         android:textSize="10sp"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
-<<<<<<< HEAD
-                        app:layout_constraintHorizontal_bias="0.809"
-                        app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toTopOf="parent"
-                        app:layout_constraintVertical_bias="1.0" />
-
-                    <TextView
-                        android:id="@+id/Cherrytext"
-                        android:layout_width="33dp"
-                        android:layout_height="16dp"
-=======
                         app:layout_constraintHorizontal_bias="0.175"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent"
@@ -544,17 +442,10 @@
                         android:id="@+id/Cherrytext"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
->>>>>>> e37c323a8441518efd9d51a865a23da9bcf1a642
                         android:text="Cherry"
                         android:textSize="10sp"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
-<<<<<<< HEAD
-                        app:layout_constraintHorizontal_bias="0.186"
-                        app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toTopOf="parent"
-                        app:layout_constraintVertical_bias="1.0" />
-=======
                         app:layout_constraintHorizontal_bias="0.175"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent"
@@ -571,7 +462,6 @@
                         app:layout_constraintTop_toTopOf="parent"
                         app:layout_constraintVertical_bias="0.0"
                         app:srcCompat="@drawable/cherry" />
->>>>>>> e37c323a8441518efd9d51a865a23da9bcf1a642
 
                     <CheckBox
                         android:id="@+id/cherryCheckbox"
@@ -586,21 +476,6 @@
                         app:layout_constraintTop_toTopOf="parent"
                         app:layout_constraintVertical_bias="0.0" />
 
-<<<<<<< HEAD
-                    <ImageView
-                        android:id="@+id/imageView7"
-                        android:layout_width="94dp"
-                        android:layout_height="53dp"
-                        app:layout_constraintBottom_toBottomOf="parent"
-                        app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintHorizontal_bias="0.64"
-                        app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toTopOf="parent"
-                        app:layout_constraintVertical_bias="0.571"
-                        app:srcCompat="@drawable/cherry" />
-
-=======
->>>>>>> e37c323a8441518efd9d51a865a23da9bcf1a642
                 </androidx.constraintlayout.widget.ConstraintLayout>
 
             </androidx.cardview.widget.CardView>
@@ -624,17 +499,10 @@
                         android:textSize="10sp"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
-<<<<<<< HEAD
-                        app:layout_constraintHorizontal_bias="0.892"
-                        app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toTopOf="parent"
-                        app:layout_constraintVertical_bias="1.0" />
-=======
                         app:layout_constraintHorizontal_bias="0.175"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent"
                         app:layout_constraintVertical_bias="0.973" />
->>>>>>> e37c323a8441518efd9d51a865a23da9bcf1a642
 
                     <TextView
                         android:id="@+id/cherrytext"
@@ -644,12 +512,6 @@
                         android:textSize="10sp"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
-<<<<<<< HEAD
-                        app:layout_constraintHorizontal_bias="0.0"
-                        app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toTopOf="parent"
-                        app:layout_constraintVertical_bias="1.0" />
-=======
                         app:layout_constraintHorizontal_bias="0.175"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent"
@@ -666,7 +528,6 @@
                         app:layout_constraintTop_toTopOf="parent"
                         app:layout_constraintVertical_bias="0.032"
                         app:srcCompat="@drawable/mango_chunks" />
->>>>>>> e37c323a8441518efd9d51a865a23da9bcf1a642
 
                     <CheckBox
                         android:id="@+id/mangoChunksCheckbox"
@@ -680,19 +541,6 @@
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent"
                         app:layout_constraintVertical_bias="0.015" />
-<<<<<<< HEAD
-
-                    <ImageView
-                        android:id="@+id/imageView11"
-                        android:layout_width="95dp"
-                        android:layout_height="58dp"
-                        app:layout_constraintBottom_toBottomOf="parent"
-                        app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toTopOf="parent"
-                        app:srcCompat="@drawable/mango_chunks" />
-=======
->>>>>>> e37c323a8441518efd9d51a865a23da9bcf1a642
                 </androidx.constraintlayout.widget.ConstraintLayout>
 
             </androidx.cardview.widget.CardView>
@@ -716,17 +564,10 @@
                         android:textSize="10sp"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
-<<<<<<< HEAD
-                        app:layout_constraintHorizontal_bias="0.916"
-                        app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toTopOf="parent"
-                        app:layout_constraintVertical_bias="0.985" />
-=======
                         app:layout_constraintHorizontal_bias="0.175"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent"
                         app:layout_constraintVertical_bias="0.973" />
->>>>>>> e37c323a8441518efd9d51a865a23da9bcf1a642
 
                     <TextView
                         android:id="@+id/cherrytext2"
@@ -736,12 +577,6 @@
                         android:textSize="10sp"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
-<<<<<<< HEAD
-                        app:layout_constraintHorizontal_bias="0.135"
-                        app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toTopOf="parent"
-                        app:layout_constraintVertical_bias="0.985" />
-=======
                         app:layout_constraintHorizontal_bias="0.175"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent"
@@ -758,7 +593,6 @@
                         app:layout_constraintTop_toTopOf="parent"
                         app:layout_constraintVertical_bias="0.0"
                         app:srcCompat="@drawable/marshmallow" />
->>>>>>> e37c323a8441518efd9d51a865a23da9bcf1a642
 
                     <CheckBox
                         android:id="@+id/marshmallowCheckbox"
@@ -772,19 +606,6 @@
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent"
                         app:layout_constraintVertical_bias="0.0" />
-<<<<<<< HEAD
-
-                    <ImageView
-                        android:id="@+id/imageView12"
-                        android:layout_width="84dp"
-                        android:layout_height="69dp"
-                        app:layout_constraintBottom_toBottomOf="parent"
-                        app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toTopOf="parent"
-                        app:srcCompat="@drawable/marshmallow" />
-=======
->>>>>>> e37c323a8441518efd9d51a865a23da9bcf1a642
                 </androidx.constraintlayout.widget.ConstraintLayout>
             </androidx.cardview.widget.CardView>
 
@@ -794,28 +615,16 @@
 
     <LinearLayout
         android:id="@+id/linearLayout"
-<<<<<<< HEAD
-        android:layout_width="394dp"
-        android:layout_height="96dp"
-=======
         android:layout_width="408dp"
         android:layout_height="89dp"
->>>>>>> e37c323a8441518efd9d51a865a23da9bcf1a642
         android:orientation="horizontal"
         android:padding="16dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-<<<<<<< HEAD
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.831">
-=======
         app:layout_constraintHorizontal_bias="0.333"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.88">
->>>>>>> e37c323a8441518efd9d51a865a23da9bcf1a642
 
 
         <androidx.cardview.widget.CardView
@@ -919,18 +728,6 @@
     </LinearLayout>
 
     <LinearLayout
-<<<<<<< HEAD
-        android:layout_width="166dp"
-        android:layout_height="56dp"
-        android:orientation="horizontal"
-        tools:layout_editor_absoluteX="228dp"
-        tools:layout_editor_absoluteY="602dp">
-
-        <androidx.cardview.widget.CardView
-            android:id="@+id/minusCardView"
-            android:layout_width="55dp"
-            android:layout_height="45dp"
-=======
         android:layout_width="192dp"
         android:layout_height="52dp"
         android:orientation="horizontal"
@@ -945,7 +742,6 @@
             android:id="@+id/minusCardView"
             android:layout_width="73dp"
             android:layout_height="match_parent"
->>>>>>> e37c323a8441518efd9d51a865a23da9bcf1a642
             app:cardBackgroundColor="#E0F9B5 "
             app:cardCornerRadius="4dp"
             app:cardElevation="4dp"
@@ -959,11 +755,7 @@
 
             <Button
                 android:id="@+id/minus"
-<<<<<<< HEAD
-                android:layout_width="53dp"
-=======
                 android:layout_width="wrap_content"
->>>>>>> e37c323a8441518efd9d51a865a23da9bcf1a642
                 android:layout_height="wrap_content"
                 android:background="@android:color/transparent"
                 android:text="-"
@@ -974,26 +766,16 @@
 
         <TextView
             android:id="@+id/quantityTextView"
-<<<<<<< HEAD
-            android:layout_width="34dp"
-            android:layout_height="52dp"
-=======
             android:layout_width="45dp"
             android:layout_height="match_parent"
->>>>>>> e37c323a8441518efd9d51a865a23da9bcf1a642
             android:layout_marginTop="20sp"
             android:text="1"
             android:textAlignment="center" />
 
         <androidx.cardview.widget.CardView
             android:id="@+id/plusCardView"
-<<<<<<< HEAD
-            android:layout_width="55dp"
-            android:layout_height="45dp"
-=======
             android:layout_width="73dp"
             android:layout_height="match_parent"
->>>>>>> e37c323a8441518efd9d51a865a23da9bcf1a642
             app:cardBackgroundColor="#E0F9B5 "
             app:cardCornerRadius="4dp"
             app:cardElevation="4dp"
@@ -1007,18 +789,10 @@
 
             <Button
                 android:id="@+id/plus"
-<<<<<<< HEAD
-                android:layout_width="55dp"
-                android:layout_height="31dp"
-                android:background="@android:color/transparent"
-                android:text="+"
-                android:textAlignment="textStart"
-=======
                 android:layout_width="63dp"
                 android:layout_height="38dp"
                 android:background="@android:color/transparent"
                 android:text="+"
->>>>>>> e37c323a8441518efd9d51a865a23da9bcf1a642
                 android:textColor="@color/black"
                 android:textSize="8sp" />
         </androidx.cardview.widget.CardView>
