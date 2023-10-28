@@ -10,7 +10,7 @@ import android.widget.TextView
 
 class HomeActivity : AppCompatActivity() {
 
-    private var quantity = 0
+    private var quantity = 1
     private lateinit var quantityTextView: TextView
     private lateinit var placeOrderButton: Button
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -24,7 +24,7 @@ class HomeActivity : AppCompatActivity() {
         quantityTextView.text = quantity.toString()
 
         minusButton.setOnClickListener {
-            if (quantity > 0) {
+            if (quantity > 1) {
                 quantity--
                 updateQuantity()
             }
