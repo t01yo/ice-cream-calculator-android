@@ -1,5 +1,9 @@
 # Ice Cream - Android App Using Intents
 
+# Authors
+- [@bitress (Cyanne Justin Vega)](https://www.github.com/bitress)
+- [@t01yo (Alcel Marie Obaña)](https://github.com/t01yo)
+
 ## • Overview
 An android application version of the [Food Calculator](https://github.com/bitress/advanced-web-development-front-end-1) website that was written on Javascript
 
@@ -21,8 +25,3 @@ You can get Ice Cream Calculator
 
 # License
 This project is licensed under the MIT License
-
-# Authors
-- [@bitress](https://www.github.com/bitress)
-- [@t01yo](https://github.com/t01yo)
-
