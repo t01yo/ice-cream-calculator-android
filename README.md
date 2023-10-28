@@ -16,7 +16,7 @@ The app offers the following features:
 ## • Installation
 You can get Ice Cream Calculator
 
-1. Go to the [Releases](https://github.com/bitress/ice-cream-calculator-android/releases/tag/v1.3) section of this GitHub repository.
+1. Go to the [Releases](https://github.com/bitress/ice-cream-calculator-android/releases/tag/v1.5) section of this GitHub repository.
 3. Download the APK file from the list of assets.
 4. Open the APK file on your Android device to start the installation process.
 5. If necessary, adjust your device's settings to allow installation from unknown sources.
