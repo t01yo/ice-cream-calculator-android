@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Ice Cream Calculator</string>
+    <string name="alcel_marie_obana">Alcel Marie Obaña</string>
+    <string name="cyanne_justin_vega">Cyanne Justin Vega</string>
+    <string name="ordered_items">Ordered Items</string>
+    <string name="toppings">Toppings:</string>
+    <string name="size">Size:</string>
+    <string name="flavor">Flavor:</string>
+    <string name="total_price">Total Price:</string>
 </resources>
