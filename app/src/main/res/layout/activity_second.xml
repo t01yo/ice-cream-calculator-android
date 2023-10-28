@@ -179,6 +179,7 @@
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>
+<<<<<<< HEAD
 
     <ImageView
         android:id="@+id/imageView2"
@@ -217,4 +218,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0" />
+=======
+>>>>>>> b7c463f61b6ae307fc6877c1fecd808e4ca06b6c
 </androidx.constraintlayout.widget.ConstraintLayout>
