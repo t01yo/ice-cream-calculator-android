@@ -214,7 +214,8 @@
                 android:layout_width="129dp"
                 android:layout_height="match_parent"
                 android:layout_margin="5sp"
-                android:layout_weight="1">
+                android:layout_weight="1"
+                app:cardBackgroundColor="#FFCFDF ">
 
                 <androidx.constraintlayout.widget.ConstraintLayout
                     android:layout_width="match_parent"
@@ -251,12 +252,13 @@
                         android:layout_width="29dp"
                         android:layout_height="26dp"
                         android:layout_weight="1"
+                        android:buttonTint="#511616"
+                        android:text="Blueberry"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintHorizontal_bias="0.0"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent"
-                        android:text="Blueberry"
                         app:layout_constraintVertical_bias="0.015" />
 
                     <ImageView
@@ -265,10 +267,10 @@
                         android:layout_height="51dp"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintHorizontal_bias="0.84"
+                        app:layout_constraintHorizontal_bias="1.0"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent"
-                        app:layout_constraintVertical_bias="0.21"
+                        app:layout_constraintVertical_bias="0.0"
                         app:srcCompat="@drawable/blueberry" />
                 </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -278,7 +280,8 @@
                 android:layout_width="129dp"
                 android:layout_height="match_parent"
                 android:layout_margin="5sp"
-                android:layout_weight="1">
+                android:layout_weight="1"
+                app:cardBackgroundColor="#FFCFDF ">
 
                 <androidx.constraintlayout.widget.ConstraintLayout
                     android:layout_width="match_parent"
@@ -312,14 +315,14 @@
 
                     <ImageView
                         android:id="@+id/imageView5"
-                        android:layout_width="79dp"
-                        android:layout_height="59dp"
+                        android:layout_width="72dp"
+                        android:layout_height="55dp"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintHorizontal_bias="0.825"
+                        app:layout_constraintHorizontal_bias="0.936"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent"
-                        app:layout_constraintVertical_bias="0.466"
+                        app:layout_constraintVertical_bias="0.117"
                         app:srcCompat="@drawable/bacon" />
 
                     <TextView
@@ -342,7 +345,8 @@
                 android:layout_width="129dp"
                 android:layout_height="match_parent"
                 android:layout_margin="5sp"
-                android:layout_weight="1">
+                android:layout_weight="1"
+                app:cardBackgroundColor="#FFCFDF ">
 
                 <androidx.constraintlayout.widget.ConstraintLayout
                     android:layout_width="match_parent"
@@ -376,14 +380,14 @@
 
                     <ImageView
                         android:id="@+id/imageView10"
-                        android:layout_width="79dp"
-                        android:layout_height="59dp"
+                        android:layout_width="77dp"
+                        android:layout_height="50dp"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintHorizontal_bias="0.825"
+                        app:layout_constraintHorizontal_bias="0.809"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent"
-                        app:layout_constraintVertical_bias="0.466"
+                        app:layout_constraintVertical_bias="0.23"
                         app:srcCompat="@drawable/cheese" />
 
                     <CheckBox
@@ -394,10 +398,10 @@
                         android:text="Cheese"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintHorizontal_bias="0.013"
+                        app:layout_constraintHorizontal_bias="0.034"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent"
-                        app:layout_constraintVertical_bias="0.018" />
+                        app:layout_constraintVertical_bias="0.0" />
                 </androidx.constraintlayout.widget.ConstraintLayout>
 
             </androidx.cardview.widget.CardView>
@@ -414,7 +418,8 @@
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_margin="5sp"
-                android:layout_weight="1">
+                android:layout_weight="1"
+                app:cardBackgroundColor="#FFCFDF ">
 
                 <androidx.constraintlayout.widget.ConstraintLayout
                     android:layout_width="match_parent"
@@ -448,8 +453,8 @@
 
                     <ImageView
                         android:id="@+id/cherryimage"
-                        android:layout_width="79dp"
-                        android:layout_height="59dp"
+                        android:layout_width="73dp"
+                        android:layout_height="53dp"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintHorizontal_bias="0.914"
@@ -477,9 +482,10 @@
 
             <androidx.cardview.widget.CardView
                 android:layout_width="0dp"
-                android:layout_margin="5sp"
                 android:layout_height="match_parent"
-                android:layout_weight="1">
+                android:layout_margin="5sp"
+                android:layout_weight="1"
+                app:cardBackgroundColor="#FFCFDF ">
 
                 <androidx.constraintlayout.widget.ConstraintLayout
                     android:layout_width="match_parent"
@@ -517,10 +523,10 @@
                         android:layout_height="50dp"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintHorizontal_bias="0.775"
+                        app:layout_constraintHorizontal_bias="1.0"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent"
-                        app:layout_constraintVertical_bias="0.045"
+                        app:layout_constraintVertical_bias="0.032"
                         app:srcCompat="@drawable/mango_chunks" />
 
                     <CheckBox
@@ -541,9 +547,10 @@
 
             <androidx.cardview.widget.CardView
                 android:layout_width="0dp"
-                android:layout_margin="5sp"
                 android:layout_height="match_parent"
-                android:layout_weight="1" >
+                android:layout_margin="5sp"
+                android:layout_weight="1"
+                app:cardBackgroundColor="#FFCFDF ">
 
                 <androidx.constraintlayout.widget.ConstraintLayout
                     android:layout_width="match_parent"
@@ -581,10 +588,10 @@
                         android:layout_height="53dp"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintHorizontal_bias="0.851"
+                        app:layout_constraintHorizontal_bias="1.0"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent"
-                        app:layout_constraintVertical_bias="0.062"
+                        app:layout_constraintVertical_bias="0.0"
                         app:srcCompat="@drawable/marshmallow" />
 
                     <CheckBox

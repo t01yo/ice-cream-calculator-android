@@ -24,7 +24,7 @@ class HomeActivity : AppCompatActivity() {
         quantityTextView.text = quantity.toString()
 
         minusButton.setOnClickListener {
-            if (quantity > 0) {
+            if (quantity > 1) {
                 quantity--
                 updateQuantity()
             }
